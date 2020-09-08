@@ -2,7 +2,10 @@
 #include<iostream>
 using namespace std;
 int main() {
-    //Variables declared
+    /*Variables declared
+    x = Amount to withdraw
+    b = Balance
+    */
     int x=0;
     float b=0;
     //User Input
