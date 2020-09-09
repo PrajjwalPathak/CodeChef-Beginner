@@ -1,2 +1,2 @@
 # CodeChef
-My CodeChef Programs
+My CodeChef Beginner Programs
