@@ -1,8 +1,8 @@
-//Program to calculate sum of digits of multiple inputs
+
 #include <iostream>
 using namespace std;
 
-//Function for taking inputs
+
 void input(int a[], int t) {
     int i;
     for(i=0;i<t;i++) {
@@ -10,7 +10,6 @@ void input(int a[], int t) {
     }
 }
 
-//Function for calculating sum of digits of a number
 void sumOfDigits(int a[], int t) {
     int i,sum;
     for(i=0;i<t;i++) {
