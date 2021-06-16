@@ -2,25 +2,22 @@
 using namespace std;
 
 int fact(int n) {
-    if(n >= 1){
-        return n * fact(n - 1);
-    }
-    else{
+    if (n == 0)
         return 1;
-    }
+    return n * fact(n - 1);
 }
 
 int main() {
 
-    int T,i;
-    scanf("%d",&T);
-    int A[T];
-    for(i=0;i<T;i++) {
-        scanf("%d",&A[i]);
-        A[i]=fact(A[i]);
+    int t, i;
+    scanf("%d", &t);
+    int arr[t];
+    for(i=0; i<t; i++) {
+        scanf("%d", &arr[i]);
+        arr[i] = fact(arr[i]);
     }
-    for(i=0;i<T;i++) {
-        printf("%d\n",A[i]);
+    for(i=0; i<t; i++) {
+        printf("%d\n", arr[i]);
     }
     return 0;
 }
