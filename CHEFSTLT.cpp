@@ -18,7 +18,7 @@ int main() {
             if(s1[j] == '?' && s2[j] == '?') {
                 qInBothcount++;
             }
-            if(s1[j] == '?' }} s2[j] == '?') {
+            if(s1[j] == '?' || s2[j] == '?') {
                 qInEachcount++;
             }
         }
