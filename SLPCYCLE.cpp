@@ -10,7 +10,9 @@ int main() {
     for(i=0; i<t; i++) {
         scanf("%d %d", &l, &h);
         cin>>s;
-        
+        for(j=0; j<l; j++) {
+            if()
+        }
     }
     
     return 0;
